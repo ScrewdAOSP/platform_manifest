@@ -502,6 +502,7 @@
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="screwd" revision="n7x" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="screwd" revision="n7x" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="n7x" />
+  <project path="packages/apps/Masquerade" name="packages_apps_Masquerade" remote="screwd" revision="n7x" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="screwd" revision="n7x" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="screwd" revision="n7x" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="screwd" revision="n7x" />
@@ -526,9 +527,6 @@
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
   
-  <!-- OMS -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
-
   <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="mdalexca/aarch64-linux-android-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" remote="bb" revision="master" />
