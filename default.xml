@@ -511,7 +511,6 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="screwd" revision="n7x"/>
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="n7x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="n7x" />
-  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="screwd" revision="n7x" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="screwd" revision="n7x" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="n7x"  />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="screwd" revision="n7x" />
