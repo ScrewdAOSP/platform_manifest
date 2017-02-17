@@ -522,7 +522,6 @@
   <project path="system/core" name="system_core" remote="screwd" revision="n7x" />
   <project path="system/netd" name="system_netd" remote="screwd" revision="n7x" />
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="n7x" />
-  <project path="vendor/prebuilt" name="vendor_prebuilt" remote="screwd" revision="n7x" />
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="n7x" >
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
