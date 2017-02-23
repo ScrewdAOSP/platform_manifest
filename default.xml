@@ -15,7 +15,10 @@
            fetch="https://github.com/ScrewdAOSP" />
 	   
   <remote name="du"
-           fetch="https://github.com/DirtyUnicorns" />	   
+           fetch="https://github.com/DirtyUnicorns" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" /> 	   
 	   
   <remote  name="bb"
            fetch="https://bitbucket.org/" />	   
@@ -535,4 +538,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" />
+
+  <!-- PureNexus PixelGapps -->
+  <project path="vendor/pixelgapps" name="PureNexus/android_vendor_pixelgapps" remote="gitlab" revision="android-7.1" />
 </manifest>
