@@ -540,5 +540,5 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="DespairFactor/arm-linux-androideabi-5.x" remote="bb" revision="master" />
 
   <!-- PureNexus PixelGapps -->
-  <project path="vendor/pixelgapps" name="PureNexus/android_vendor_pixelgapps" remote="gitlab" revision="android-7.1" />
+  <project path="vendor/pixelgapps" name="spaceman860/android_vendor_pixelgapps" remote="gitlab" revision="n7x" />
 </manifest>
