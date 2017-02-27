@@ -519,6 +519,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="n7x"  />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="screwd" revision="n7x" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="n7x" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="n7x" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="n7x" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="n7x" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="screwd" revision="n7x" />
