@@ -373,7 +373,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
@@ -507,6 +506,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="n7x" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="screwd" revision="n7x" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="screwd" revision="n7x" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="screwd" revision="n7x" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="n7x" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="screwd" revision="n7x" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="n7x" />
