@@ -513,6 +513,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="screwd" revision="n7x"/>
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="n7x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="n7x" />
+  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="n7x" />
   <project path="packages/apps/ThemeInterfacer" name="packages_apps_ThemeInterfacer" remote="screwd" revision="n7x" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="screwd" revision="n7x" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="n7x"  />
