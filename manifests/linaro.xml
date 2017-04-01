@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="f100"
+          fetch="https://bitbucket.org/f100cleveland/" />	
+
+  <!-- LINARO Toolchains -->
+  
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.3" name="gcc-linaro-6.3.1-aarch64-linux-gnu" remote="f100" revision="n7x" />
+  
+</manifest>

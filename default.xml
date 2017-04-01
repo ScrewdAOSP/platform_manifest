@@ -546,6 +546,9 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 
+  <!-- Add LINARO -->
+  <include name="manifests/linaro.xml" />
+
   <!-- Remove unused AOSP repos -->
   <include name="manifests/remove.xml" />
 
