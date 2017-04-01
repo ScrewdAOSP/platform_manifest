@@ -552,7 +552,7 @@
   <!-- Remove unused AOSP repos -->
   <include name="manifests/remove.xml" />
 
-  <!-- Add all tracked DU/AOSP repos -->
+  <!-- Add all tracked Screw'd repos -->
   <include name="manifests/screwd.xml" />
   
   <!-- Add UBERTC -->
