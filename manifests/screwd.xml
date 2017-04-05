@@ -22,6 +22,7 @@
   </project>
   <project path="device/asus/flo" name="device_asus_flo" remote="screwd" revision="n7x" />
   <project path="device/google/marlin" name="device_google_marlin" remote="screwd" revision="n7x" />
+  <project path="device/google/sailfish" name="device_google_sailfish" remote="screwd" revision="n7x" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="n7x" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="screwd" revision="n7x" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="screwd" revision="n7x" />
