@@ -44,6 +44,7 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="device/sample" />
+  <remove-project name="platform/external/ims" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
