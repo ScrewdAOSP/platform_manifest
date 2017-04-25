@@ -61,13 +61,13 @@
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="n7x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="n7x" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="n7x" />
-  <project path="packages/apps/ThemeInterfacer" name="packages_apps_ThemeInterfacer" remote="screwd" revision="n7x" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="n7x"  />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="screwd" revision="n7x" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="n7x" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="n7x" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="n7x" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="n7x" />
+  <project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="screwd" revision="n7x" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="screwd" revision="n7x" />
   <project path="system/core" name="system_core" remote="screwd" revision="n7x" />
   <project path="system/extras" name="system_extras" remote="screwd" revision="n7x" />
