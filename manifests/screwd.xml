@@ -79,6 +79,6 @@
   </project>
 
   <!-- PixelGapps -->
-  <project path="vendor/pixelgapps" name="spaceman860/android_vendor_pixelgapps" remote="gitlab" revision="n7x" />
+  <project path="vendor/pixelgapps" name="f100cleveland/android_vendor_pixelgapps" remote="gitlab" revision="n7x" />
 
 </manifest>
