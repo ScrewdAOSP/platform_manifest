@@ -34,6 +34,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="n7x" />
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="n7x" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="n7x" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="screwd" revision="n7x" />
   <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="n7x" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="screwd" revision="n7x" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="screwd" revision="n7x" />
@@ -42,6 +43,7 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="screwd" revision="n7x" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="screwd" revision="n7x" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="screwd" revision="n7x" />
+  <project path="hardware/ril" name="hardware_ril" remote="screwd" revision="n7x" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="screwd" revision="n7x" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="screwd" revision="n7x" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="screwd" revision="n7x" />
