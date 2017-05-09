@@ -49,12 +49,14 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="screwd" revision="n7x" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="screwd" revision="n7x" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="screwd" revision="n7x" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="screwd" revision="n7x" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="screwd" revision="n7x" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="screwd" revision="n7x" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="screwd" revision="n7x" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="n7x" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="screwd" revision="n7x" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="screwd" revision="n7x" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="screwd" revision="n7x" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="screwd" revision="n7x" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="n7x" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="screwd" revision="n7x" />
@@ -73,6 +75,7 @@
   <project path="prebuilts/misc" name="prebuilts_misc" remote="screwd" revision="n7x" />
   <project path="system/core" name="system_core" remote="screwd" revision="n7x" />
   <project path="system/extras" name="system_extras" remote="screwd" revision="n7x" />
+  <project path="system/media" name="system_media" remote="screwd" revision="n7x" />
   <project path="system/netd" name="system_netd" remote="screwd" revision="n7x" />
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="n7x" />
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="n7x" >
