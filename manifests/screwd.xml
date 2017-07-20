@@ -17,8 +17,6 @@
   <project path="bionic" name="bionic" remote="screwd" revision="n7x" />
   <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="n7x" />
   <project path="build/kati" name="build_kati" remote="screwd" revision="n7x" />
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="external/busybox" name="external_busybox" remote="screwd" revision="n7x" />
   <project path="external/DUtils" name="external_DUtils" remote="screwd" revision="n7x" />
   <project path="external/google" name="external_google" remote="screwd" revision="n7x" />
