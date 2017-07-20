@@ -71,6 +71,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="n7x" />
   <project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="screwd" revision="n7x" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="screwd" revision="n7x" />
+  <project path="system/bt" name="system_bt" remote="screwd" revision="n7x-caf" />
   <project path="system/core" name="system_core" remote="screwd" revision="n7x" />
   <project path="system/extras" name="system_extras" remote="screwd" revision="n7x" />
   <project path="system/media" name="system_media" remote="screwd" revision="n7x" />
