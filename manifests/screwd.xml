@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes -->
-  <remote name="github"
+   <remote name="github"
            fetch="https://github.com/" />
 
   <remote name="gitlab"
@@ -12,26 +11,66 @@
            fetch="https://github.com/ScrewdAOSP" />
 
   <!-- Screw'd Repos -->
-  <project path="platform_manifest" name="platform_manifest" remote="screwd" revision="n7x" />
+
+  <project path="platform_manifest" name="platform_manifest" remote="screwd" revision="n7x-caf" />
+  
   <project path="art" name="art" remote="screwd" revision="n7x" />
   <project path="bionic" name="bionic" remote="screwd" revision="n7x" />
   <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="n7x" />
   <project path="build/kati" name="build_kati" remote="screwd" revision="n7x" />
+  <project path="build" name="build" remote="screwd" revision="n7x-caf" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="device/oppo/common" name="device_oppo_common" remote="screwd" revision="n7x-caf" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="screwd" revision="n7x-caf" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="screwd" revision="n7x-caf" />
+
+
   <project path="external/busybox" name="external_busybox" remote="screwd" revision="n7x" />
   <project path="external/DUtils" name="external_DUtils" remote="screwd" revision="n7x" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="screwd" revision="n7x-caf" />
+  <project path="external/exfat" name="external_exfat" remote="screwd" revision="n7x-caf" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="screwd" revision="n7x-caf" />
+  <project path="external/fuse" name="external_fuse" remote="screwd" revision="n7x-caf" />
   <project path="external/google" name="external_google" remote="screwd" revision="n7x" />
-  <project path="external/skia" name="external_skia" remote="screwd" revision="n7x" />
-  <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="n7x" />
+  <project path="external/skia" name="external_skia" remote="screwd" revision="n7x-caf" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="screwd" revision="n7x-caf" />
+
+  <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="n7x-caf" /> 
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="n7x" />
-  <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="n7x" />
+  <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="n7x-caf" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="screwd" revision="n7x"/>
   <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="n7x" />
+
+
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="screwd" revision="n7x" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="screwd" revision="n7x" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="screwd" revision="n7x" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="n7x" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="screwd" revision="n7x-caf" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="screwd" revision="n7x-caf" />
+  
+
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="screwd" revision="n7x-caf" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="screwd" revision="n7x-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="screwd" revision="n7x-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="screwd" revision="n7x-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="screwd" revision="n7x-caf-8998" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="screwd" revision="n7x-caf" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="screwd" revision="n7x-caf" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="n7x-caf" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="screwd" revision="n7x-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="screwd" revision="n7x-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="screwd" revision="n7x-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" remote="screwd" revision="n7x-caf-8998" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="screwd" revision="n7x" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="screwd" revision="n7x" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="screwd" revision="n7x" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="screwd" revision="n7x-caf" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="screwd" revision="n7x-caf" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="screwd" revision="n7x-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="screwd" revision="n7x-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" remote="screwd" revision="n7x-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" remote="screwd" revision="n7x-caf-8998" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="screwd" revision="n7x" />
+  <project path="hardware/ril" name="hardware_ril" remote="screwd" revision="n7x-caf" />
+
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="screwd" revision="n7x" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="screwd" revision="n7x" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="screwd" revision="n7x" />
@@ -53,26 +92,28 @@
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="n7x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="n7x" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="n7x" />
+
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="n7x"  />
+
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="screwd" revision="n7x" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="n7x" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="n7x" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="n7x" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="n7x" />
+ 
   <project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="screwd" revision="n7x" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="screwd" revision="n7x" />
+
   <project path="system/bt" name="system_bt" remote="screwd" revision="n7x-caf" />
-  <project path="system/core" name="system_core" remote="screwd" revision="n7x" />
-  <project path="system/extras" name="system_extras" remote="screwd" revision="n7x" />
-  <project path="system/media" name="system_media" remote="screwd" revision="n7x" />
+  <project path="system/core" name="system_core" remote="screwd" revision="n7x-caf" />
+  <project path="system/extras" name="system_extras" remote="screwd" revision="n7x-caf" />
+  <project path="system/media" name="system_media" remote="screwd" revision="n7x-caf" />
   <project path="system/netd" name="system_netd" remote="screwd" revision="n7x" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="n7x" />
+  <project path="system/qcom" name="system_qcom" remote="screwd" revision="n7x-caf" />
+  <project path="system/vold" name="system_vold" remote="screwd" revision="n7x-caf" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="n7x-caf" />
+  
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="n7x" >
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
-
-  <!-- PixelGapps -->
-  <project path="vendor/pixelgapps" name="f100cleveland/android_vendor_pixelgapps" remote="gitlab" revision="n7x" />
-
 </manifest>

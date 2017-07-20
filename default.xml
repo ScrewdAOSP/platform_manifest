@@ -555,15 +555,10 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
 
-  <!-- Add LINARO -->
-  <include name="manifests/linaro.xml" />
-
   <!-- Remove unused AOSP repos -->
   <include name="manifests/remove.xml" />
 
   <!-- Add all tracked Screw'd repos -->
   <include name="manifests/screwd.xml" />
-  
-  <!-- Add UBERTC -->
-  <include name="manifests/ubertc.xml" />
+
 </manifest>
