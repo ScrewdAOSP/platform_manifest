@@ -28,6 +28,7 @@ $ mkdir WORKSPACE
 $ cd WORKSPACE
 
 # Install Repo in the created directory
+# If you are building for Nexus/Pixel devices, use the n7x branch by running.
 $ repo init -u https://github.com/ScrewdAOSP/platform_manifest -b n7x
 ```
 
