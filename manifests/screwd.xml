@@ -34,8 +34,10 @@
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="screwd" revision="n7x-caf" />
   <project path="external/fuse" name="external_fuse" remote="screwd" revision="n7x-caf" />
   <project path="external/google" name="external_google" remote="screwd" revision="n7x" />
+  <project path="external/json-c" name="external_json-c" remote="screwd" revision="n7x-caf" />
   <project path="external/skia" name="external_skia" remote="screwd" revision="n7x-caf" />
   <project path="external/tinycompress" name="external_tinycompress" remote="screwd" revision="n7x-caf" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="screwd" revision="n7x-caf" />
 
   <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="n7x-caf" /> 
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="n7x" />
